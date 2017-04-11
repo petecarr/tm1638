@@ -1,3 +1,5 @@
+echo "*** Free gpio pins after Resource Busy messages"
+echo "*** Ignore error messages like  echo: write error: Invalid argument"
 echo 18 > /sys/class/gpio/unexport
 echo 0 > /sys/class/gpio/unexport
 echo 1 > /sys/class/gpio/unexport
